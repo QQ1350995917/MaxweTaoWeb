@@ -1,0 +1,2 @@
+/*! foodslab-back-end 2017-02-09 */
+"use strict";function LOGIN(a,b){var c=document.domain.substring(0,1)+document.domain.substring(4,5)+a.substring(2,3)+a.substring(2,5),d="loginName="+a+"&password="+b;document.getElementById("params").value=CryptoJS.AES.encrypt(d,c).toString(),document.getElementById("form1").submit()}
